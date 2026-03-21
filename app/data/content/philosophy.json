@@ -1,0 +1,38 @@
+{
+  "love": [
+    "Is love a choice or a feeling? Can we choose who to love?",
+    "If you love someone, should you set them free? What does freedom in love mean?",
+    "Is it better to have loved and lost than never to have loved at all?",
+    "Does love require vulnerability, or does vulnerability create love?"
+  ],
+  "life": [
+    "What is the meaning of life? Do we create our own purpose?",
+    "Is happiness the ultimate goal of life, or is there something more?",
+    "If life is suffering, then what is the point of living?",
+    "What makes a life well-lived?"
+  ],
+  "art": [
+    "Does art imitate life, or does life imitate art?",
+    "Can something ugly be considered art?",
+    "What makes something beautiful?",
+    "If a tree falls in a forest and no one is there to hear it, does it make a sound? (The art version)"
+  ],
+  "religion": [
+    "Does God exist? Can we ever truly know?",
+    "If God is all-powerful and all-good, why does evil exist?",
+    "Is faith a virtue or a limitation?",
+    "Can science and religion coexist?"
+  ],
+  "truth": [
+    "What is truth? Is truth objective or subjective?",
+    "Can we ever truly know anything?",
+    "Is it better to know a painful truth or a comfortable lie?",
+    "Does truth change over time?"
+  ],
+  "reality": [
+    "Is the world we perceive real, or is it an illusion?",
+    "Are we living in a simulation?",
+    "If reality is subjective, then whose reality is the real one?",
+    "Do we create our own reality through perception?"
+  ]
+}
