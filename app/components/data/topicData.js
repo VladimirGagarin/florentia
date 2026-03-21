@@ -1,10 +1,21 @@
 // app/components/data/topicData.js
 export const topics = [
   {
-    topicName: "Romantic Lines",
-    slug: "romance",  // ← This is important!
-    description: "Sweet words to make hearts flutter",
-    subtopics: ["Love", "Longing", "Devotion", "First Love", "Eternal Love"]
+  topicName: "Romantic Lines",
+  slug: "romance",
+  description: "Sweet words to make hearts flutter",
+  subtopics: [
+    "Love", 
+    "Longing", 
+    "Devotion", 
+    "First Love", 
+    "Eternal Love",
+    "Soul Connection",  // NEW - for lines about soulmates and deep connection
+    "Heartfelt",        // NEW - for deep emotional expressions
+    "Poetic",           // NEW - for artistic/poetic expressions
+    "Playful",          // NEW - for fun, light-hearted lines
+    "Nature's Beauty"   // NEW - for lines using nature metaphors
+  ]
   },
   {
     topicName: "Philosophy Questions",

@@ -29,12 +29,47 @@ export default function TopicScreen() {
 
   const getSubtopicIcon = (subtopic) => {
     const iconMap = {
-      'Love': '❤️', 'Longing': '🥀', 'Devotion': '🙏', 'First Love': '💘',
-      'Life': '🌟', 'Art': '🎨', 'Religion': '🕯️', 'Truth': '⚖️',
-      'Self-Growth': '🌱', 'Healing': '🌿', 'Relationships': '💞',
-      'Purpose': '🎯', 'Emotions': '🌊', 'Simplicity': '🍃',
-      'Patience': '⏳', 'Flow': '🌊', 'Balance': '⚖️', 'Wisdom': '🦉',
-      'Courage': '🦁', 'Happiness': '😊', 'Peace': '☮️', 'Inspiration': '✨',
+      // Existing subtopics
+      'Love': '❤️',
+      'Longing': '🥀',
+      'Devotion': '🙏',
+      'First Love': '💘',
+      'Eternal Love': '💕∞',
+      
+      // New subtopics
+      'Soul Connection': '✨',      // Sparkling stars - represents spiritual connection
+      'Heartfelt': '💝',            // Heart with ribbon - deep emotional gift
+      'Poetic': '📖',               // Book - artistic/written expression
+      'Playful': '😄',              // Smiling face - fun and light-hearted
+      "Nature's Beauty": '🌺',      // Hibiscus - natural beauty
+      
+      // Keep your existing ones
+      'Life': '🌟',
+      'Art': '🎨',
+      'Religion': '🕯️',
+      'Truth': '⚖️',
+      'Reality': '🌀',
+      'Self-Growth': '🌱',
+      'Healing': '🪴',
+      'Relationships': '💞',
+      'Purpose': '🎯',
+      'Emotions': '🌊',
+      'Ethics': '📜',
+      'Society': '👥',
+      'Morality': '⚖️',
+      'Justice': '🏛️',
+      'Simplicity': '🍃',
+      'Patience': '⏳',
+      'Flow': '🌊',
+      'Balance': '⚖️',
+      'Nature': '🌿',
+      'Harmony': '🎵',
+      'Wisdom': '🦉',
+      'Courage': '🦁',
+      'Happiness': '😊',
+      'Peace': '☮️',
+      'Inspiration': '✨',
+      'Life Lessons': '📚',
     };
     return iconMap[subtopic] || '📌';
   };

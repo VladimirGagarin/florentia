@@ -8,7 +8,8 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "save": "git add . && git commit -m \"save progress\" && git push origin proj"
   },
   "dependencies": {
     "@expo/metro-runtime": "~6.1.2",
