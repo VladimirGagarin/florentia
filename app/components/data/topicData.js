@@ -14,7 +14,13 @@ export const topics = [
     "Heartfelt",        // NEW - for deep emotional expressions
     "Poetic",           // NEW - for artistic/poetic expressions
     "Playful",          // NEW - for fun, light-hearted lines
-    "Nature's Beauty"   // NEW - for lines using nature metaphors
+    "Nature's Beauty", // NEW - for lines using nature metaphors
+    "French Love",
+    "divine_love",
+    "intellectual_romance",
+    "sincere_love",
+    "existential_romance",
+    "witty_deep",
   ]
   },
   {

@@ -70,6 +70,10 @@ export default function TopicScreen() {
       'Peace': '☮️',
       'Inspiration': '✨',
       'Life Lessons': '📚',
+      'French Love': '🥐', 
+      'intellectual_romance': '🥖',
+      'divine_love': '💕',
+      'witty_deep': '⏳',
     };
     return iconMap[subtopic] || '📌';
   };
