@@ -50,7 +50,7 @@ export default function TopicScreen() {
       Truth: "⚖️",
       Reality: "🌀",
       "Self-Growth": "🌱",
-      Healing: "🩹",
+      Healing: "🪴",
       Relationships: "💞",
       Purpose: "🎯",
       Emotions: "🌊",
@@ -104,7 +104,7 @@ export default function TopicScreen() {
         Trust: "🤝",
         Boundaries: "🚧",
         Forgiveness: "🕊️",
-        Identity: "I", // icon for identity
+        Identity: "🪞",
         Fear: "😨",
         Resilience: "🌱",
         Authenticity: "✨",
@@ -112,7 +112,7 @@ export default function TopicScreen() {
         Shame: "😞",
       'self_love': '💖', 
       'Trust': '🤝',
-      'self_awareness_and_self_worth': 'S',
+      'self_awareness_and_self_worth': '🪞',
 
     };
     return iconMap[subtopic] || "❓";
@@ -137,7 +137,7 @@ export default function TopicScreen() {
       activeOpacity={0.7}
     >
       <View style={[styles.iconContainer, { backgroundColor: darkTheme.colors.background }]}>
-        <Text style={[styles.subtopicIcon, { color: darkTheme.colors.text }]}>{getSubtopicIcon(item)}</Text>
+        <Text style={[styles.subtopicIcon, { color: darkTheme.colors.text }}>{getSubtopicIcon(item)}</Text>
       </View>
         <Text style={[styles.subtopicName, { color: darkTheme.colors.text }]} numberOfLines={2}>
           {/*replace punctuations and capitalise every word */}

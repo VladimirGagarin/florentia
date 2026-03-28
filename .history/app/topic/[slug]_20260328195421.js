@@ -50,7 +50,7 @@ export default function TopicScreen() {
       Truth: "⚖️",
       Reality: "🌀",
       "Self-Growth": "🌱",
-      Healing: "🩹",
+      Healing: "",
       Relationships: "💞",
       Purpose: "🎯",
       Emotions: "🌊",

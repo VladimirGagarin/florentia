@@ -67,7 +67,7 @@ export const topics = [
     "Relationships",
     "Purpose",
     "Emotions",
-    "self_love",                 // ← NEW - essential for well-being
+    "selflove",                 // ← NEW - essential for well-being
     "Trust",                    // ← NEW - essential for relationships & self
     "Vulnerability",            // ← NEW - courage to be seen
     "Boundaries",               // ← NEW - knowing where you end and others begin

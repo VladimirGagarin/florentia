@@ -50,7 +50,7 @@ export default function TopicScreen() {
       Truth: "⚖️",
       Reality: "🌀",
       "Self-Growth": "🌱",
-      Healing: "🩹",
+      Healing: "🪴",
       Relationships: "💞",
       Purpose: "🎯",
       Emotions: "🌊",
@@ -104,7 +104,7 @@ export default function TopicScreen() {
         Trust: "🤝",
         Boundaries: "🚧",
         Forgiveness: "🕊️",
-        Identity: "I", // icon for identity
+        Identity: "I",
         Fear: "😨",
         Resilience: "🌱",
         Authenticity: "✨",

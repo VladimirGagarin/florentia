@@ -62,12 +62,12 @@ export const topics = [
   slug: "choices",
   description: "Guiding questions for self-discovery",
   subtopics: [
-    "self_awareness_and_self_worth",
+    "Self-Growth",
     "Healing",
     "Relationships",
     "Purpose",
     "Emotions",
-    "self_love",                 // ← NEW - essential for well-being
+    ""
     "Trust",                    // ← NEW - essential for relationships & self
     "Vulnerability",            // ← NEW - courage to be seen
     "Boundaries",               // ← NEW - knowing where you end and others begin

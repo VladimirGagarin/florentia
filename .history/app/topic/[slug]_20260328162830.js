@@ -50,7 +50,7 @@ export default function TopicScreen() {
       Truth: "⚖️",
       Reality: "🌀",
       "Self-Growth": "🌱",
-      Healing: "🩹",
+      Healing: "🪴",
       Relationships: "💞",
       Purpose: "🎯",
       Emotions: "🌊",
@@ -92,7 +92,7 @@ export default function TopicScreen() {
       numbers_and_mathematics: "🔢",
       language: "🗣️",
        Trust: "🤝",
-        Vulnerability: "V", // icon for vulnerability
+        Vulnerability: "🫀", // icon for vulnerability
         Boundaries: "🚧",
         Forgiveness: "🕊️",
         Identity: "🪞",
@@ -102,24 +102,23 @@ export default function TopicScreen() {
         Loneliness: "🌙",
         Shame: "😞",
         Trust: "🤝",
+        Vulnerability: "🫀",
         Boundaries: "🚧",
         Forgiveness: "🕊️",
-        Identity: "I", // icon for identity
+        Identity: "🪞",
         Fear: "😨",
         Resilience: "🌱",
         Authenticity: "✨",
         Loneliness: "🌙",
-        Shame: "😞",
-      'self_love': '💖', 
-      'Trust': '🤝',
-      'self_awareness_and_self_worth': 'S',
+      Shame: "😞",
+         'Self-Love': '💖', 
 
     };
-    return iconMap[subtopic] || "❓";
+    return iconMap[subtopic] || {subtopic.charAt(0).toUpperCase()};
   };
 
   const getSubtopicColor = (index) => {
-    const colors = ['#E94560', '#81B69D', '#B68B6D', '#A7C0CD', '#e7d464', '#365516', '#ff6f91', '#845ec2', '#d65db1', '#ff9671', '#0081cf', '#ffc75f', '#f9f871', '#c34a36', '#f67280', '#6c5b7b', '#355c7d', '#99b898', '#fecea8', '#ff847c', '#e84a5f', '#2a363b', '#a8e6cf', '#dcedc1', '#ffd3b6', '#ffaaa5', '#ff8c94'];
+    const colors = ['#E94560', '#81B69D', '#B68B6D', '#A7C0CD', '#e7d464', '#365516'];
     return colors[index % colors.length];
   };
 
@@ -137,7 +136,7 @@ export default function TopicScreen() {
       activeOpacity={0.7}
     >
       <View style={[styles.iconContainer, { backgroundColor: darkTheme.colors.background }]}>
-        <Text style={[styles.subtopicIcon, { color: darkTheme.colors.text }]}>{getSubtopicIcon(item)}</Text>
+        <Text style={styles.subtopicIcon}>{getSubtopicIcon(item)}</Text>
       </View>
         <Text style={[styles.subtopicName, { color: darkTheme.colors.text }]} numberOfLines={2}>
           {/*replace punctuations and capitalise every word */}

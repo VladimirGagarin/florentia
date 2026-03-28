@@ -50,7 +50,7 @@ export default function TopicScreen() {
       Truth: "⚖️",
       Reality: "🌀",
       "Self-Growth": "🌱",
-      Healing: "🩹",
+      Healing: "🪴",
       Relationships: "💞",
       Purpose: "🎯",
       Emotions: "🌊",
@@ -104,7 +104,7 @@ export default function TopicScreen() {
         Trust: "🤝",
         Boundaries: "🚧",
         Forgiveness: "🕊️",
-        Identity: "I", // icon for identity
+        Identity: "🪞",
         Fear: "😨",
         Resilience: "🌱",
         Authenticity: "✨",
@@ -112,7 +112,7 @@ export default function TopicScreen() {
         Shame: "😞",
       'self_love': '💖', 
       'Trust': '🤝',
-      'self_awareness_and_self_worth': 'S',
+      'self_awareness_and_self_worth': '',
 
     };
     return iconMap[subtopic] || "❓";
