@@ -20,10 +20,16 @@
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
-      }
+      },
+      "package": "com.kelvin_einstein.Florentia"
     },
     "web": {
       "favicon": "./assets/logos.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6503ad60-e4f5-4708-a46f-44ae0ee37b88"
+      }
     }
   }
 }

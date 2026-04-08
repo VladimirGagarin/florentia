@@ -33,7 +33,7 @@ export default function TopicScreen() {
       Love: "❤️",
       Longing: "🥀",
       Devotion: "🙏",
-      "First_Love": "💘",
+      "First Love": "💘",
       "Eternal Love": "💕",
 
       // New subtopics
@@ -90,8 +90,6 @@ export default function TopicScreen() {
       Existence: "🌌",
       knowledge_and_logic: "📚",
       numbers_and_mathematics: "🔢",
-      existential_romance : "💞",
-      sincere_love: "💝",
       language: "🗣️",
       Trust: "🤝",
       Vulnerability: "V", // icon for vulnerability

@@ -91,7 +91,7 @@ export default function TopicScreen() {
       knowledge_and_logic: "📚",
       numbers_and_mathematics: "🔢",
       existential_romance : "💞",
-      sincere_love: "💝",
+      sincere_love: "",
       language: "🗣️",
       Trust: "🤝",
       Vulnerability: "V", // icon for vulnerability

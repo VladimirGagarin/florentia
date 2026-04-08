@@ -90,7 +90,7 @@ export default function TopicScreen() {
       Existence: "🌌",
       knowledge_and_logic: "📚",
       numbers_and_mathematics: "🔢",
-      existential_romance : "💞",
+      existential_romance : "",
       sincere_love: "💝",
       language: "🗣️",
       Trust: "🤝",
