@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Florentia",
+    "slug": "Florentia",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logos.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logos.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#1A2A2E"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/logo"
+    }
+  }
+}
