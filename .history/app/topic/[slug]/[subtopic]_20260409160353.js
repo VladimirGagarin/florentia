@@ -64,9 +64,9 @@ export default function SubtopicDetailScreen() {
   await Clipboard.setStringAsync(text);
     setIsCopied(true);
     setTimeout(() => {
-      setIsCopied(false);
-      setIndex(null); // ✅ move it here
-    }, 2000);
+    setIsCopied(false);
+    setIndex(null); // ✅ move it here
+  }, 2000);
 };
 
   const renderItem = ({ item, index }) => (
@@ -77,7 +77,7 @@ export default function SubtopicDetailScreen() {
       <Text style={[styles.text, { color: darkTheme.colors.text }]}>
         {item}
       </Text>
-      <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
+      
       <TouchableOpacity 
         style={styles.shareButton}
         onPress={() => handleShare(item)}
@@ -96,8 +96,6 @@ export default function SubtopicDetailScreen() {
           Copy
         </Text>
       </TouchableOpacity>
-    </View>
-    
       {isCopied && CopiedIndex === index && (
         <Text style={{ color: darkTheme.colors.accent, marginTop: 5 }}>
           Copied to clipboard!

@@ -77,7 +77,7 @@ export default function SubtopicDetailScreen() {
       <Text style={[styles.text, { color: darkTheme.colors.text }]}>
         {item}
       </Text>
-      <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
+      <View></View>
       <TouchableOpacity 
         style={styles.shareButton}
         onPress={() => handleShare(item)}
@@ -96,8 +96,7 @@ export default function SubtopicDetailScreen() {
           Copy
         </Text>
       </TouchableOpacity>
-    </View>
-    
+      
       {isCopied && CopiedIndex === index && (
         <Text style={{ color: darkTheme.colors.accent, marginTop: 5 }}>
           Copied to clipboard!

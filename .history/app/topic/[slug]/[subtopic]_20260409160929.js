@@ -77,7 +77,7 @@ export default function SubtopicDetailScreen() {
       <Text style={[styles.text, { color: darkTheme.colors.text }]}>
         {item}
       </Text>
-      <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
+      <View style={{ flexDirection: 'row', justifyContent: 'sp' }}>
       <TouchableOpacity 
         style={styles.shareButton}
         onPress={() => handleShare(item)}

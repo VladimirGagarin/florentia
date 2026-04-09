@@ -35,7 +35,6 @@ export default function SubtopicDetailScreen() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
     const [isCopied, setIsCopied] = useState(false);
-    const [CopiedIndex,setIndex] = useState(null);
 
   // Decode and normalize the subtopic name
   const decodedSubtopic = decodeURIComponent(subtopic).toLowerCase();
@@ -58,15 +57,10 @@ export default function SubtopicDetailScreen() {
     }
   };
 
-  const copyText = async (text,index) => {
+  const copyText = async (text) => {
   setIsCopied(false);
-  setIndex(index);
   await Clipboard.setStringAsync(text);
-    setIsCopied(true);
-    setTimeout(() => {
-      setIsCopied(false);
-      setIndex(null); // ✅ move it here
-    }, 2000);
+  setIsCopied(true);
 };
 
   const renderItem = ({ item, index }) => (
@@ -77,7 +71,7 @@ export default function SubtopicDetailScreen() {
       <Text style={[styles.text, { color: darkTheme.colors.text }]}>
         {item}
       </Text>
-      <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
+      
       <TouchableOpacity 
         style={styles.shareButton}
         onPress={() => handleShare(item)}
@@ -89,20 +83,7 @@ export default function SubtopicDetailScreen() {
       </TouchableOpacity>
       <TouchableOpacity 
         style={styles.shareButton}
-        onPress={() => copyText(item, index)}
-      >
-        <Ionicons name="copy-outline" size={20} color={darkTheme.colors.accent} /> 
-        <Text style={[styles.buttonText, { color: darkTheme.colors.accent }]}>
-          Copy
-        </Text>
-      </TouchableOpacity>
-    </View>
-    
-      {isCopied && CopiedIndex === index && (
-        <Text style={{ color: darkTheme.colors.accent, marginTop: 5 }}>
-          Copied to clipboard!
-        </Text>
-      )}
+        onPress={() => copyText(item)}
     </View>
   );
 
