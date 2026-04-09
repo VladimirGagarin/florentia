@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florentia Online</title>
+    <style>
+        body {
+            background-color: #1A2A2E;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .button {
+            background-color: #7B2CBF;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: 5px 0;
+        }
+        a {
+            color: #FFD700;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Florentia Online</h1>
+    <div id="content"></div>
+
+    <script>
+        // Function to get query parameters
+        function getQueryParams() {
+            const params = new URLSearchParams(window.location.search);
+            return {
+                topic: params.get('topic'),
+                subtopic: params.get('subtopic')
+            };
+        }
+
+        // Function to display content based on query parameters
+        function displayContent() {
+            const { topic, subtopic } = getQueryParams();
+            const contentDiv = document.getElementById('content');
+            if (topic && subtopic) {
+                contentDiv.innerHTML = `<h2>Topic: ${topic}</h2><h3>Subtopic: ${subtopic}</h3>`;
+            } else {
+                contentDiv.innerHTML = '<h2>Please provide valid topic and subtopic in the URL.</h2>';
+            }
+        }
+
+        // Display content on page load
+        displayContent();
+    </script>
+</body>
+</html>
