@@ -28,7 +28,7 @@ export const topics = [
       "midnight_romance",
       "Art_and_Music",
       "Roses_Of_Rome",
-      "worldly_romance",
+      "worldy_romance",
       "Unrequited_Love",
       "Indulgent_Love",
     ],
