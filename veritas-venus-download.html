@@ -81,6 +81,33 @@
             font-size: 0.9rem;
             color: #6b8a94;
         }
+        .note {
+    font-size: 1.1rem;
+    color: #a0d8e0;
+    text-align: center;
+    margin: 25px 0;
+    position: relative;
+    font-weight: 500;
+}
+
+/* Creates a horizontal line with text in the center */
+.note::before,
+.note::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 35%;           /* Adjust this to control line length */
+    height: 1px;
+    background: linear-gradient(to right, transparent, #6b8a94, transparent);
+}
+
+.note::before {
+    left: 0;
+}
+
+.note::after {
+    right: 0;
+}
     </style>
 </head>
 <body>
@@ -89,10 +116,14 @@
         <p class="quote">"Nature does not hurry, yet everything is accomplished." — Lao Tzu</p>
         
         <!-- QR Code using online API -->
+        <p class="note"> SCAN  TO DOWNLOAD </p>
+        
         <div class="qr-code">
             <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://github.com/VladimirGagarin/florentia/releases/download/V.1.0/application-b1b37271-1149-4c9f-99d9-79344b4da2eb.apk" 
                  alt="QR Code for Florentia APK">
         </div>
+
+        <p class="note"> OR  </p>
 
         <a href="https://github.com/VladimirGagarin/florentia/releases/download/V.1.0/application-b1b37271-1149-4c9f-99d9-79344b4da2eb.apk" 
            class="download-button">
